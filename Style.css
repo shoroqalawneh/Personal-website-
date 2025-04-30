@@ -1,1 +1,83 @@
-<link rel="stylesheet" href="style.css">
+
+/* تنسيق خلفية الصفحة وخط النص */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* تنسيق الحاوية الرئيسية */
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 90%;
+}
+
+/* تنسيق صورة الملف الشخصي */
+.profile {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #007BFF;
+}
+
+/* العنوان الرئيسي */
+h1 {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* نص الترحيب */
+.welcome {
+  font-size: 18px;
+  color: #555;
+}
+
+/* معلومات التواصل */
+.contact {
+  font-size: 16px;
+  color: #333;
+}
+
+/* الروابط */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* مجموعة الأزرار */
+.buttons {
+  margin-top: 20px;
+}
+
+/* الأزرار */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
