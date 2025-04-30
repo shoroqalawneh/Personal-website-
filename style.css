@@ -81,3 +81,18 @@ a:hover {
 .btn:hover {
   background-color: #0056b3;
 }
+.download {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.download:hover {
+  background-color: #218838;
+}
